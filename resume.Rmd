@@ -1,0 +1,345 @@
+---
+title: "Resme of Wilson Kam Kai Yip"
+output: pagedown::html_resume
+---
+
+<!---- icon for MatLab ----->
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+<style>
+#title{
+  margin: auto 0.55in 00in auto;
+}
+
+#highlights{
+  --decorator-border: 0px solid #ccc;
+}
+
+
+.aside {
+  width: var(--sidebar-width);
+  padding: 0in;
+  padding-left: 0.3in;
+  padding-top: 0.1in;
+  font-size: 0.8rem;
+  float: right;
+  position: absolute;
+  right: 0;
+}
+
+.aside table tr td:nth-child(2) {
+  text-align:right;
+}
+
+.aside #contact-info {
+    margin-top: 0in;
+}
+
+.aside .level2 {
+    margin-top: 0.2in;
+}
+
+.tex sub, .latex sub, .latex sup {
+  text-transform: uppercase;
+}
+
+.tex sub, .latex sub {
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.tex, .latex, .tex sub, .latex sub {
+  font-size: 1em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
+
+
+
+
+ .ms-Grid-col {
+   box-sizing: border-box;
+	 background-color: grey;
+	 border: 1px solid black;
+	 color: white;
+	 padding: 20px;
+	 text-align: center;
+ }
+ .ms-Grid-col:hover {
+	 background-color: #bada55;
+	 color: black;
+ }
+ 
+ i.ms-Icon{
+	 font-size: 46px;
+   margin-bottom: 10px;
+ }
+
+.searchbox {
+  display:flex;
+  flex-direction: row;
+}
+
+.searchicon {
+  padding: 8px;
+}
+.searchicon i {font-size: 26px;}
+
+.search-input {
+  display: block;
+  flex-grow: 1;
+  flex-shrink:1;
+  border-style:none;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-block:not(.concise) .details div {
+    margin-top: 20pt;
+}
+
+.pagedjs_page {
+    background: linear-gradient(to left,var(--sidebar-background-color),var(--sidebar-background-color) var(--sidebar-background-width),white var(--sidebar-background-width));
+    --pagedjs-margin-top: 0.7in;
+    --pagedjs-margin-right: 0.5in;
+    --pagedjs-margin-left: 0.25in;
+    --pagedjs-margin-bottom: 0.7in;
+    --pagedjs-border-top: [object Object];
+    --pagedjs-border-right: [object Object];
+    --pagedjs-border-left: [object Object];
+    --pagedjs-border-bottom: [object Object];
+    --pagedjs-pagebox-width: 8.5in;
+    --pagedjs-pagebox-height: 11in;
+}
+</style>
+
+Aside
+====================================
+
+
+
+Contact info
+------------------------------------
+<i class="fa fa-envelope"></i> wilsonyip@elitemail.org <br>
+<i class="fa fa-phone"></i> +44 (0) 7895 616 568<br>
+<i class="fa fa-github"></i> https://github.com/wilsonkkyip/
+
+
+Skills
+------------------------------------
+
+<table>
+<tr>
+<th style="text-align: left"> Data Analytics</th>
+</tr>
+<tr>
+<td style="width:150px">Python <i class="fab fa-python"></i> </td>
+<td style="width:100px"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i> </td>
+</tr>
+<tr>
+<td>R <i class="fab fa-r-project"></i></td>
+<td><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+<tr>
+<td>TensorFlow <span class="iconify" data-icon="simple-icons:tensorflow" data-inline="false"></span> </td>
+<td><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+<tr>
+<td>MATLAB <span class="iconify" data-icon="file-icons:matlab"></span> </td>
+<td><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+</table>
+<br>
+<table>
+<tr>
+<th style="text-align: left" colspan="2"> Infrastructure As Code</th>
+</tr>
+<tr>
+<td style="width:150px">Chef Infra <img src="chef.svg" width="13" height="13"></td>
+<td style="width:100px"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+<tr>
+<td>KitchenCI <img src="kitchen.svg" width="13" height="13"></td>
+<td><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+<tr>
+<td>Vagrant <img src="vagrant.svg" width="13" height="13"></td>
+<td><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+<tr>
+<td>Packer <img src="packer.svg" width="13" height="13"></td>
+<td><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+</table>
+<br>
+<table>
+<tr>
+<th style="text-align: left" colspan="2"> Cloud Service</th>
+</tr>
+<tr>
+<td style="width:150px">Azure <img src="azure.svg" width="13" height="13"> </td>
+<td style="width:100px"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+<tr>
+<td>AWS <i class="fab fa-aws"></i> </td>
+<td><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+</table>
+<br>
+<table>
+<tr>
+<th style="text-align: left" colspan="2"> Miscellaneous</th>
+</tr>
+<tr>
+<td style="width:150px">Linux Bash <i class="fab fa-linux"></i> </td>
+<td style="width:100px"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+<tr>
+<td>Ruby <img src="ruby.svg" width="13" height="13"></td>
+<td><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+<tr>
+<td>JavaScript <i class="fab fa-js-square"></i></td>
+<td><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+<tr>
+<td>Google Script <img src="googleappscript2.svg" width="14" height="14"></td>
+<td><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+<tr>
+<td>VBA <img src="vba.svg" width="13" height="13"></td>
+<td><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+</table>
+<br>
+<table>
+<tr>
+<th style="text-align: left" colspan="2"> Administrative</th>
+</tr>
+<tr>
+<td style="width:150px">Microsoft Office <img src="office.svg" width="13" height="13"></td>
+<td style="width:100px"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+<tr>
+<td style="width:150px">Markdown <img src="markdown.svg" width="13" height="13"></td>
+<td style="width:100px"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+<tr>
+<td style="width:150px"><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></td>
+<td style="width:100px"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></td>
+</tr>
+</table>
+
+
+
+Languages
+------------------------------------
+
+English: Fluent<br>
+Cantonese: Native<br>
+Mandarin: Fluent
+
+
+Disclaimer {#disclaimer}
+------------------------------------
+
+
+
+Main
+====================================
+
+Wilson Kam Kai Yip {#title}
+------------------------------------
+
+Data analyst with code-based experiences. Fluent in both `Python` and `R`. Fast learner. Exploring opportunities in the UK, does NOT require visa sponsorship. 
+
+
+
+Experience {data-icon=briefcase}
+------------------------------------
+
+### City University of Hong Kong
+
+Research Assistant (Data Analytics)
+
+N/A
+
+Feb,2021-Jan,2022
+
+- Perform **NLP analytics** to fit **topic models** and summarise collections of documents.
+- Analyse the relationships and correlations from the **$n$-gram networks**.
+- Data extraction from various sources using `Selenium` and various **APIs** (including Google APIs). 
+- Apply various machine learning model including **logistic regression**, **random forest**, **k-means**, **neural network** and more. 
+- Perform **imputation** on missing values and **outliers detection**.
+- **Data visualisation** of the analytics result using `ggplot`, `plotly`, `shiny`, `matplotlib`, `seaborn`, and more.
+
+
+### HKJC Centre for Suicide Research and Prevention, HKU
+
+Research Assistant (Data Analytics)
+
+N/A
+
+Sept,2017-Current
+
+- Writing `Packer` *template files* to deployed **virtual machines** on `Azure` and setting up `MongoDB` and various applications on **Linux servers**.
+- **Extract, transform, and load** data from various sources into the in-house databases. 
+-	Design **API specifications** for vendors. 
+- Perform statistical analysis, including **$t$-test**, **$\chi^2$-test**, **ANOVA**, **linear regression**, **PCA** and more. 
+- Applying regression model for count data, including **poisson regression** and **negative binomial regression** models. 
+- Carry out **network analysis** on the ecosystem of social enterprises, identify the **centralities** of the nodes and conduct **community clustering** on the ecosystem.
+
+
+
+Academic Publication
+-----------------------------------
+
+### Co-Creation of a Suicide Prevention Video and Its Impacts.
+
+Cheng, Q., Shum, A.K.U., Ip, F.W.L., Wong, H.K., **Yip, W.K.K**.,Kam, A.H.L., Yip, P.S.F.<br>[https://doi.org/10.1027/0227-5910/a000593](https://doi.org/10.1027/0227-5910/a000593)
+
+N/A
+
+2019
+
+
+Education {data-icon=graduation-cap}
+------------------------------------
+
+### University of Hong Kong
+
+Bachelor of Science
+
+N/A
+
+2014-2017
+
+Major: Mathematics/Physics<br>
+Minor: Computational and Financial Mathematics
+
+<!---------
+
+### HKU SPACE Community College 
+
+Associate of Science
+
+N/A
+
+2012-2014
+
+Physics Theme<br>Graduate with distinction
+----------->
+
+```{r, echo = FALSE, results = FALSE}
+file.copy("./resume.Rmd", "./resume_source.txt")
+```
+
